@@ -14,7 +14,6 @@ if (hour < 18) {
 }
 
 
-
 //it-else
 if (hour < 18) {
     greeting = "Good day";

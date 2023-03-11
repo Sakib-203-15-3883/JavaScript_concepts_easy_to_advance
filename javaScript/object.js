@@ -1,7 +1,5 @@
 //A car(which is an object) has properties like weight and color, and methods like start and stop:
-
 //It is a common practice to declare objects with the const keyword.
-
 //Objects are variables too. But objects can contain many values.
 //Methods are actions that can be performed on objects.
 const person={
@@ -22,14 +20,9 @@ const person={
 console. log(person.firstName);
 console. log(person["firstName"]);
 
-
-
 //Accessing Object Methods
 //objectName.methodName()
 console. log( person.fullName());
-
-
-
 
 //This example creates an empty JavaScript object, and then adds 4 properties:
 
@@ -48,11 +41,8 @@ console. log(dog["name"]);
 console. log(dog["age"]);
 console. log(dog["eyeColor"]);
 
-
-
 //Objects are mutable: They are addressed by reference, not by value.
 //Any changes to x will also change person, because x and person are the same object.
-
 
 const person1 = {
   firstName:"John",
@@ -66,9 +56,7 @@ x.age = 10;
 console. log(person1["age"]);//10
 console. log(x["age"]);//10
 
-
 //JavaScript for...in Loop
-
 const person2 = {
   fname:" John",
   lname:" Doe",
@@ -78,8 +66,6 @@ const person2 = {
 for(let x in person2){
   console. log(person2[x]);
 }
-
-
 
 //Nested Objects
 
@@ -94,11 +80,8 @@ const myObj = {
 }
 
 console. log(myObj.cars["car1"]);
-
-
 //Nested Arrays and Objects
 //Values in objects can be arrays, and values in arrays can be objects:
-
 
 const studrnt = {
 
@@ -111,6 +94,5 @@ const studrnt = {
   ],
   
 }
-
 //JavaScript Object Methods
 
