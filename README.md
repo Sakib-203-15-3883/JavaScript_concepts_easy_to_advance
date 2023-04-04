@@ -1,4 +1,4 @@
-# JavaScript_concept_-easy_to_advance-
+# JavaScript_concepts_-easy_to_advance-
 here's a summary of all core concepts in JavaScript that are covered in this series with details explanations through comments.
 
 1. Variables
