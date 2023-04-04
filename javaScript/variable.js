@@ -6,6 +6,8 @@
 //Names are case sensitive (y and Y are different variables).
 //Reserved words (like JavaScript keywords) cannot be used as names.
 // Using var keyword.  If you want your code to run in older browsers, you must use var.
+
+
 // here var is a keyword which indicate variable & 
 //firstName is a variable name &
 // "sakib" is a string type data or information  which store in variable 
@@ -13,7 +15,7 @@ var firstName="sakib";// the equal sign (=) is an "assignment" operator, not an 
 // use of a variable
 // variable name case sensetive
 console. log(firstName);
-// change variable
+// change value of a variable
 firstName="mukit";
 console. log(firstName);
 // You can use the variable before it is declared:
@@ -36,7 +38,7 @@ let y = 6;
 let z = x + y;
 console. log(z);
 
-//If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.Variables defined with let cannot be redeclared.With var you can:
+//If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.Variables defined with let cannot be redeclared.  With var you can:
 
 let a = "5" + 2 + 3;
 console. log(a);
@@ -52,7 +54,7 @@ console. log(a);
   //Variables declared with the var keyword can NOT have block scope.Redeclaring a variable using the let keyword can solve this problem.
 
 //Redeclaring a variable inside a block will not redeclare the variable outside the block:
-//Redeclaring a variable with let, in another block, IS allowed:
+//Redeclaring a variable with let, in another block, jS allowed:
 let s = 2;   // Allowed
 
 {

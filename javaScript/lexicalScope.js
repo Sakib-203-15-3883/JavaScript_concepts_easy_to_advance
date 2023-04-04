@@ -1,3 +1,5 @@
+//Parent lexical objects are important in JavaScript because they allow functions to access variables and functions that are defined outside of their own scope, enabling powerful patterns like closures and higher-order functions. 
+
 //What exactly is Scope?
 //Scope refers to the area where an item (such as a function or variable) is visible and accessible to other code.
 ///Scope means area, space, or region.
@@ -53,16 +55,16 @@ const myVar="value1";
 
 function myApp(){
 
-   function myFunction(){
+  function myFunction(){
         
       const myFunction2 = () =>{
             console. log("inside my fun2",myVar);
         }
         myFunction2();
-   }
-   myFunction();
-   }
- myApp();
+  }
+  myFunction();
+  }
+myApp();
 
 
 //example: 3
@@ -110,10 +112,6 @@ function displayFullName() {
 console.log(displayFullName());//"Oluwatobi Sofela"
 
 
-
-
-
-
 // lexical parent object vs parent scope 
 //lexical parent object and upper scope are not the same concept in JavaScript, although they are related.
 
@@ -123,7 +121,7 @@ function outerFunction() {
   function innerFunction() {
     let z = 30;
     console.log(x); // Prints 10 (from the upper scope)
-    console.log(y); // Prints 20 (from the lexical parent object)
+    console.log(y); // Prints 20 (from the lexical parent object)closures
     console.log(z); // Prints 30 (from the current scope)
   }
   innerFunction();

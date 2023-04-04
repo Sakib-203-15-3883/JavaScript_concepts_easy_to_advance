@@ -1,11 +1,10 @@
-//   //The JavaScript apply() Method
-
+//The JavaScript apply() Method
 //The Difference Between call() and apply()
 //The difference is:
+//The call() method takes arguments separately (n times).
+//The apply() method takes 2'nd argument as an array.
+//The return value of the apply method is also the result of calling the function with the specified this value and arguments.
 
-//The call() method takes arguments separately.
-
-//The apply() method takes arguments as an array.
 
 const person = {
     
@@ -13,10 +12,12 @@ const person = {
       return this.firstName + " " + this.lastName;
     }
   }
+
   const person1 = {
     firstName:"John",
     lastName: "Doe"
   }
+  
   const person2 = {
     firstName:"Mary",
     lastName: "Doe"
