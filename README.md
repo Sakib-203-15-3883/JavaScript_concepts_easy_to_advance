@@ -32,6 +32,6 @@ here's a summary of all core concepts in JavaScript that are covered in this ser
 29. Asynchronous behavior with callback function ( also explain setTimeOut() method)
 30. callback hell
 31. Asynchronous behavior with promise  ( using  .then()  , .catch() method)
-32. Asynchronous behavior with promise  ( using  asyn/await keyword )
+32. Asynchronous behavior with promise  ( using  async/await keyword )
 
 
