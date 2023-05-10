@@ -33,5 +33,6 @@ here's a summary of all core concepts in JavaScript that are covered in this ser
 30. callback hell
 31. Asynchronous behavior with promise  ( using  .then()  , .catch() method)
 32. Asynchronous behavior with promise  ( using  async/await keyword )
-
+33. DOM
+34. API
 
