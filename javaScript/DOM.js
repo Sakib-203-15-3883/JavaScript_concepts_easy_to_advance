@@ -21,8 +21,6 @@
 
 // The id is unique within an HTML document. However, HTML is a forgiving language. If the HTML document has multiple elements with the same id, the document.getElementById() method returns the first element it encounters.
 
-// In the example above, getElementById is a method, while innerHTML is a property.
-
 const myDiv = document.getElementById("my-div");
 console.log(myDiv.textContent);
 myDiv.style.backgroundColor = "skyblue";
@@ -73,3 +71,48 @@ document.getElementById("Heading").style.color = "blue";
 function changeText(id) {
   id.innerHTML = "Ooops!";
 }
+
+// DOM EventListener method:element.addEventListener(event, function, useCapture);
+// The first parameter is the type of the event (like "click" or "mousedown" or any other HTML DOM Event.)
+// The second parameter is the function we want to call when the event occurs.
+
+// 1. Add an Event Handler to an Element
+// 2. Add Many Event Handlers to the Same Element
+// 3.Add an Event Handler to the window Object
+
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+document.getElementById("myBtn").addEventListener("click", someOtherFunction);
+
+document.getElementById("myBtn").addEventListener("mouseover", myFunction);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+
+function someOtherFunction() {
+  alert("This function was also executed!");
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML += "Moused over!<br>";
+}
+
+// DOM Navigation : With the HTML DOM, you can navigate the node tree using node relationships.
+
+/* <title id="demo">DOM Tutorial</title>; */
+// The element node <title> (in the example above) does not contain text.
+
+// It contains a text node with the value "DOM Tutorial".
+
+//The value of the text node can be accessed by the node's innerHTML property:
+
+//An HTMLCollection is a collection of document elements.HTMLCollection items can be accessed by their name, id, or index number.
+
+//A NodeList is a collection of document nodes (element nodes, attribute nodes, and text nodes).NodeList items can only be accessed by their index number.
+
+// The getElementsByClassName() and getElementsByTagName() methods return a live HTMLCollection.
+
+// The querySelectorAll() method returns a static NodeList.
+
+// The childNodes property returns a live NodeList.

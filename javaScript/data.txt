@@ -1,0 +1,3 @@
+When the request completes, the resource is available. At this time, the promise will resolve into a Response object.
+
+The Response object is the API wrapper for the fetched resource. The Response object has a number of useful properties and methods to inspect the response.
