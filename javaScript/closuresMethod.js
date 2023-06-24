@@ -18,11 +18,11 @@ function temporary() {
   
   }
 
-const add = temporary();// now add is a function 
-console.log(add); // plus(){
-                //         counter += 1;
-                //         console.log( counter);
-                //            }
+const add = temporary();  // now add is a function 
+console.log(add);   // plus(){
+                   //         counter += 1;
+                  //         console.log( counter);
+                 //            }
 
 add();//1
 add();//2

@@ -38,7 +38,7 @@ console.log(fun1(1,2,3,4,5)); //15
 
 
 
-// example 1: call a function that pass undefinite numbers as an argument and perform addition for all numbers .
+// example 1: call a function that pass indefinite numbers as an argument and perform addition for all numbers .
 const addAll = (...numbers) =>{
 let total=0;
 
