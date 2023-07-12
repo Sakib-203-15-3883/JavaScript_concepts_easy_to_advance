@@ -36,4 +36,5 @@ here's a summary of all core concepts in JavaScript that are covered in this ser
 33. DOM
 34. API
 35. json
-
+36. Event Listener
+37. browser storage 
