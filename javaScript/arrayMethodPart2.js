@@ -48,3 +48,35 @@ const fruits = ["fruit1", "fruit2 ", "fruit3 ", "fruit4 "];
 
 const result = fruits.includes("fruit1");
 console.log(result);
+
+// In JavaScript, every and some help you test if something is true for every element or some elements of an array.
+
+//for every method , The loop continues until the function returns a falsy value. And in that case every returns false – otherwise it returns true.
+
+// for some method , The loop continues until the function returns a truthy value. And in that case some returns true – otherwise it returns false.
+
+//If the array is empty, JavaScript directly returns true without any calls to the predicate.
+
+const tShirts = [
+  { size: "S", color: "black", logo: "freeCodeCamp" },
+  { size: "S", color: "white", logo: "freeCodeCamp" },
+  { size: "S", color: "teal", logo: "freeCodeCamp" },
+  { size: "M", color: "black", logo: "freeCodeCamp" },
+  { size: "M", color: "white", logo: "freeCodeCamp" },
+  { size: "M", color: "teal", logo: "freeCodeCamp" },
+  { size: "L", color: "black", logo: "freeCodeCamp3" },
+  { size: "L", color: "white", logo: "freeCodeCamp2" },
+  { size: "L", color: "teal", logo: "freeCodeCamp1" },
+];
+
+const result1 = tShirts.every((element) => {
+  return element.logo === "freeCodeCamp";
+});
+
+console.log(result1);
+
+const result2 = tShirts.some((element) => {
+  return element.logo === "freeCodeCamp";
+});
+
+console.log(result2);
