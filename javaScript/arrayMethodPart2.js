@@ -34,11 +34,15 @@ console.log(courseList);
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const evenNumbers = numbers.filter((element) => {
-  return element % 2 === 0;
-});
+const evenNumbers = (numbers) => {
+  return numbers.filter((element) => {
+    return element % 2 === 0;
+  });
+};
 
-console.log(evenNumbers);
+const resultForEvenNumbers = evenNumbers(numbers);
+console.log(resultForEvenNumbers);
+console.log(numbers);
 
 ///////////////                  include method                          ////////////////
 
@@ -80,3 +84,11 @@ const result2 = tShirts.some((element) => {
 });
 
 console.log(result2);
+
+// //If the array is empty, JavaScript directly returns true without any calls to the predicate.
+
+const includeArray1 = "";
+const includeArray2 = ["sakib", "rakib"];
+//empty string is considered to be present in every string
+const includeArrayResult = includeArray2[1].includes(includeArray1);
+console.log(includeArrayResult);
