@@ -21,7 +21,7 @@ for (let i = 0; i < numbers.length; i++) {
 }
 //The forEach() method calls a function for each element in an array.
 
-//example 3: Need to divided  each array element by 2 using dividedByTwo function  . You need to  use forEach() method . Hint: forEach() method calla  function  which known as callback function. it,s not work with empty array
+//example 3: Need to divided  each array element by 2 using dividedByTwo function  . You need to  use forEach() method . Hint: forEach() method call a  function  which known as callback function. it,s not work with empty array
 
 function dividedByTwo(number) {
   console.log(number / 2);
