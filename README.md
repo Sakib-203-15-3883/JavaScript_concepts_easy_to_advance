@@ -38,4 +38,5 @@ here's a summary of all core concepts in JavaScript that are covered in this ser
 35. json
 36. Event Listener
 37. browser storage 
-38. Ternary conditional operator 
+38. Ternary conditional operator
+39. logical operator  
