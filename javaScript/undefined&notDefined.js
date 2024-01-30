@@ -10,7 +10,7 @@ let x1 = undefined;
 console.log(x1);
 
 const object = {
-  name: "sakib",
+  name: "sakib1",
   age: 24,
 };
 

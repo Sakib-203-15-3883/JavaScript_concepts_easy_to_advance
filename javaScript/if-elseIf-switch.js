@@ -5,71 +5,69 @@
 //Use else if to specify a new condition to test, if the first condition is false
 //Use switch to specify many alternative blocks of code to be executed
 
-
 //if
-let hour=50;
+let hour = 50;
 if (hour < 18) {
-    greeting = "Good day";
-    console. log(greeting);
+  greeting = "Good day";
+  console.log(greeting);
 }
 
-
-//it-else
+//if-else
 if (hour < 18) {
-    greeting = "Good day";
-    console. log(greeting);
+  greeting = "Good day";
+  console.log(greeting);
 } else {
-    greeting = "Good evening";
-    console. log(greeting);
+  greeting = "Good evening";
+  console.log(greeting);
 }
-
 
 //if-else if
-let time=25;
+let time = 25;
 if (time < 10) {
-    greeting = "Good morning";
-    console. log(greeting);
-  } else if (time < 20) {
-    greeting = "Good day";
-    console. log(greeting);
-  } else {
-    greeting = "Good evening";
-    console. log(greeting);
-  }
+  greeting = "Good morning";
+  console.log(greeting);
+} else if (time < 20) {
+  greeting = "Good day";
+  console.log(greeting);
+} else {
+  greeting = "Good evening";
+  console.log(greeting);
+}
 
-  //switch
-  //Use switch to specify many alternative blocks of code to be executed
-let date=2;
+//switch
+//Use switch to specify many alternative blocks of code to be executed
+let date = 2;
 
 switch (date) {
-    case 0:
+  case 0:
     day = "Sunday";
     break;
-    case 1:
+  case 1:
     day = "Monday";
     break;
-    case 2:
+  case 2:
     day = "Tuesday";
     break;
-    case 3:
+  case 3:
     day = "Wednesday";
     break;
-    case 4:
+  case 4:
     day = "Thursday";
     break;
-    case 5:
+  case 5:
     day = "Friday";
     break;
-    case 6:
+  case 6:
     day = "Saturday";
     break;
-    default:
-        console. log("invalid");
-        break;
-        
-  }
+  default:
+    console.log("invalid");
+    break;
+}
 
-  console. log(day);
+console.log(day);
 
-  //Common Code Blocks
-  //If multiple cases matches a case value, the first case is selected.
+//Common Code Blocks
+//If multiple cases matches a case value, the first case is selected.
+
+// re read done

@@ -12,17 +12,15 @@ let z2 = x2 * y2;
 //JavaScript Assignment Operators
 
 //Operator	    Example	      Same As
- //   =	         x = y	      x = y
- //  +=	         x += y	      x = x+y
- //  -=	         x -= y	      x = x-y
- //  *=	         x *= y	      x = x * y
- //  /=	         x /= y	      x = x / y
- //  %=	         x %= y	      x = x % y
+//   =	         x = y	      x = y
+//  +=	         x += y	      x = x+y
+//  -=	         x -= y	      x = x-y
+//  *=	         x *= y	      x = x * y
+//  /=	         x /= y	      x = x / y
+//  %=	         x %= y	      x = x % y
 //   **=	     x **= y	  x = x ** y
 
-
 //JavaScript Comparison Operators
-
 
 //    Operator	                  Description
 //       ==	                equal to
@@ -42,15 +40,13 @@ let z2 = x2 * y2;
 //        ||	        logical or
 //         !	        logical not
 
-
 //JavaScript Type Operators
 
 //    Operator	        Description
 //     typeof	      Returns the type of a variable
-//     instanceof	  Returns true if an object is an instance 
+//     instanceof	  Returns true if an object is an instance
 
-                          //of an object type
-
+//of an object type
 
 //JavaScript Bitwise Operators
 //Bit operators work on 32 bits numbers.
@@ -69,20 +65,20 @@ let z2 = x2 * y2;
 let a = 5;
 a++;
 let b = a;
-console. log(b);
+console.log(b);
 
 //Decrementing
 
 let a1 = 5;
 a1--;
 let b1 = a1;
-console. log(b1);
+console.log(b1);
 
 //Exponentiation
 
 let a2 = 5;
 let b2 = a2 ** 2;
-console. log(b2);
+console.log(b2);
 
 //Operator Precedence
 //Operator precedence describes the order in which operations are performed in an arithmetic expression.
@@ -90,7 +86,9 @@ console. log(b2);
 //When many operations have the same precedence (like addition and subtraction or multiplication and division), they are computed from left to right:
 
 let x6 = 100 + 50 - 3;
-console. log(x6);//147
+console.log(x6); //147
 
-let x7 = 100 / 50 * 3;
-console. log(x7 );//6
+let x7 = (100 / 50) * 3;
+console.log(x7); //6
+
+// re read done

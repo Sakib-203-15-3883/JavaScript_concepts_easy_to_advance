@@ -154,3 +154,57 @@ const filteredOddNumbers = oddNumbers.filter(
 
 console.log(filteredEvenNumbers); // [2, 4, 6, 8, 10]
 console.log(filteredOddNumbers); // [1, 3, 5, 7, 9]
+
+//////////////         reduce method           /////////////////
+
+// to calculate the total value of something
+
+const products = [
+  { productId: 1, price: 2000 },
+  { productId: 1, price: 5000 },
+  { productId: 1, price: 2000 },
+  { productId: 1, price: 1000 },
+];
+
+// now i need to calculate total price of products with the help of reduce method
+
+const totalPriceOfProducts = products.reduce((totalPrice, currentPrice) => {
+  return totalPrice + currentPrice.price;
+}, 0);
+
+console.log(totalPriceOfProducts);
+
+/////////////      sort method  ////////////
+
+// it,s return a new array and modify the original array . so we may clone the orginal array before performing sorting with sort method
+
+const dataForSort = [5, 7, 3, 4, 1, 6, 2, 8, 9, 10];
+
+const ascendingSort = dataForSort.slice(0).sort((a, b) => {
+  return a - b;
+});
+
+console.log(ascendingSort);
+
+const descendingSort = dataForSort.slice(0).sort((a, b) => {
+  return -1 * (a - b);
+});
+
+console.log(descendingSort);
+
+////// /////   find method   // ////////////////
+//The find() method returns the value of the first element that passes a test.
+
+const usersForFindExplain = [
+  { productId: 1, productName: "mobile", price: 25000 },
+  { productId: 2, productName: "tv", price: 1200 },
+  { productId: 3, productName: "ac", price: 10000 },
+  { productId: 3, productName: "ac", price: 20000 },
+  { productId: 4, productName: "bike", price: 8000 },
+];
+
+const result12 = usersForFindExplain.find((element) => {
+  return element.productId === 3;
+});
+
+console.log(result12);

@@ -299,7 +299,7 @@ const rangeOfPrice1 = usersForSomeExplain.some((product) => {
 console.log(rangeOfPrice1);
 
 // fill() method
-//it,s change orginal array
+//it,s change original array
 // value  ,  start(index)  ,  end(index)
 
 const myArray5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -308,7 +308,7 @@ console.log(myArray5);
 
 //splice method()
 // start,  delete,  insert
-////it,s change orginal array
+////it,s change original array
 
 const array1 = ["item1", "item2", "item3 ", "item4"];
 //delete
@@ -364,6 +364,7 @@ const myBoys = ["Emil", "Tobias", "Linus"];
 
 const myChildren = myGirls.concat(myBoys);
 console.log(myChildren);
+
 //Example (Merging Three Arrays)
 const arr1 = ["Cecilie", "Lone"];
 const arr2 = ["Emil", "Tobias", "Linus"];
