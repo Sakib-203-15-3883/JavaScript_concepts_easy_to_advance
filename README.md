@@ -41,4 +41,4 @@ here's a summary of all core concepts in JavaScript that are covered in this ser
 38. Ternary conditional operator
 39. logical operator  
 40. recursion
-41. 
+41. recap
